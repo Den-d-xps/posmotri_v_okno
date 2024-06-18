@@ -10,8 +10,9 @@ html {
 
 .page {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
-  overflow: hidden;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
@@ -90,8 +91,6 @@ ol {
   align-items: end;
   gap: 30px;
   width: 1140px;
-  height: 534px;
-  margin: auto;
 }
 
 /* 
@@ -219,7 +218,7 @@ ol {
 }
 
 .title {
-  margin-block-end: 20px;
+  margin-block-end: 25px;
   color: #fff;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
@@ -275,7 +274,6 @@ ol {
 .content__video-card-description-container {
   flex-grow: 1;
   width: 200px;
-  height: 101px;
   overflow: hidden;
 }
 
